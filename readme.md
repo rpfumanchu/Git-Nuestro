@@ -44,7 +44,7 @@
 
 
 - ¿Qué comando o comandos utilizaste en el paso 30? 
-    - Use git reflog para localizar donde hice el merge de title, luego me posiciono con git reset <su id>, y finalmente hago git restore <archivo>.
+    - Use git reflog para localizar donde hice el merge de title, luego me posiciono con git reset "su id", y finalmente hago git restore "archivo".
 
 
 - ¿Qué comando o comandos usaste en el paso 32? 
