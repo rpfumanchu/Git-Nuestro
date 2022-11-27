@@ -5,11 +5,11 @@
 ### **Preguntas y respuestas:**
 
 - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
-    - Utilicé git reset --hard HEAD~1, porque queria perder los cambios de mi working copy "posicionando head en la posición anterior con ~1".
+    - Utilicé git reset --hard HEAD~1, porque quería perder los cambios de mi working copy "posicionando head en la posición anterior con ~1".
 
 
 - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué? 
-    - Utilicé primero git reflog, para ver el rastro que tenia y localizar un commit donde tenia el archivo que había borrado. Despues con git reset me posiciono "head" sobre ese commit y lo recupero con git restore el archivo que había eliminado.
+    - Utilicé primero git reflog, para ver el rastro que tenía y localizar un commit donde tenia el archivo que había borrado. Despues con git reset me posiciono "head" sobre ese commit y lo recupero con git restore el archivo que había eliminado.
 
 
 - El merge del paso 13, ¿Causó algún conflicto? ¿Por qué? 
@@ -17,7 +17,7 @@
 
 
 - El merge del paso 19, ¿Causó algún conflicto? ¿Por qué? 
-    - Si me genero un conflicto, porque los dos archivos han sido editados en dos ramas diferente con diferencias entre si.
+    - Si me genero un conflicto, porque los dos archivos han sido editados en dos ramas diferente con diferencias entre sí.
 
 
 - El merge del paso 21, ¿Causó algún conflicto? ¿Por qué? 
@@ -25,10 +25,10 @@
 
 
 - ¿Qué comando o comandos utilizaste en el paso 25? 
-    - Utilice git log --graph. 
+    - Utilicé git log --graph. 
 
 - El merge del paso 26, ¿Podría ser fast forward? ¿Por qué? 
-    - Si porque no había conflictos, solo añadimos el titulo pero no hay conflictos en una misma linea en dos ramas distintas.
+    - Si porque no había conflictos, en title solo añadimos el título pero no hay conflictos en una misma línea en dos ramas distintas.
 
 
 - ¿Qué comando o comandos utilizaste en el paso 27? 
@@ -52,7 +52,7 @@
 
 
 - ¿Qué comando o comandos usaste en el punto 33? 
-    - Usando git switch - "si hubiera cambios no quiero guardarlos" volveria donde estaba antes de hacer git checkout "id.del commit", en este caso. Si no fuera el caso repetiria el git checkout "id. del commit" del momento en el que quiera estar, en este caso en el paso 30 "rehacer el merge que hemos deshecho.
+    - Usando git switch - "si hubiera cambios no quiero guardarlos" volvería donde estaba antes de hacer git checkout "id.del commit", en este caso. Si no fuera el caso repetiría el git checkout "id. del commit" del momento en el que quiera estar, en este caso en el paso 30 "rehacer el merge que hemos deshecho.
 
 
 
